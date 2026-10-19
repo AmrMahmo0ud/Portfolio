@@ -18,7 +18,7 @@ export const profile = {
   linkedinUrl: "https://www.linkedin.com/in/amr1-mahmoud1/",
 
   
-  contactEndpoint: "http://127.0.0.1:8000/api/contact",
+  contactEndpoint: import.meta.env.VITE_CONTACT_ENDPOINT,
 };
 
 export const navLinks = [
